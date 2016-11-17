@@ -1,0 +1,13 @@
+<div>
+    <div class="col-md-4 col-sm-4" ng-repeat="product in productlist">
+        <div class="card">
+            <img class="" src="{{product.featured_src}}" alt="cat image cap" width="300" height="300">
+            <div class="card-block">
+                <h4 class="card-title">{{product.title}}</h4>
+                <p class="card-text">{{product.short_description}}</p>
+                <add-to-cart product='product'></add-to-cart>
+
+            </div>
+        </div>
+    </div>
+</div>

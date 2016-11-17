@@ -1,0 +1,21 @@
+@media only screen and (max-width:984px) and (min-width: 768px){ 	
+	.wrapper,.inner-outer-sec{max-width:100%; margin:0; padding:0;}	 
+	.header-top{padding:2.7% 0;}
+	#header-container .logo{margin:5px 0 0;}
+	#header-container{background-position:0 -30px;}
+	.home-slides-menu h2{font-size:30px; padding:0 25px 32px 10px;}
+	.recent_works ul li{width:380px;}
+	.menu-details{width:100%; margin:0 0 0 -12px;}
+	.menu-details>li{width:395px;}
+	.common-right{width:33%;}
+	#simplemodal-container{top:35%!important;}
+    .media-list.merchandise li,.media-list li{width:31%; text-align:center; margin:0 1% 3%; padding:0;}	
+	.media-list li .zoom img{margin:35% 0 0 0%;}	
+	.media-list.merchandise li .zoom img{margin:30% 0 0 0%;}	
+    .combo-meals-list > li section ul{width:69%;}
+    input:focus{outline:none; border:none !important;}	
+	.store-map-right,#dnn_ctr519_View_GMap1,#subgurim_GMap1{width:628px !important;}
+	.alliance-list li{width:388px;}
+	
+}
+	

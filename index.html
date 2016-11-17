@@ -1,0 +1,89 @@
+<html ng-app="myApp">
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/caurosel.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--angular-->
+    <script src="js/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+
+    <!--jquery-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <!--bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <script src="app.js"></script>
+    <!--<script src="config.xml"></script>-->
+
+
+    <!--categories-->
+    <script src="js/services/Category.js"></script>
+    <script src="js/controllers/categoriesCtrl.js"></script>
+    <!--products-->
+    <script src="js/controllers/productsCtrl.js"></script>
+    <script src="js/services/Product.js"></script>
+
+    <!--cart-->
+    <script src="js/services/Cart.js"></script>
+    <script src="js/controllers/cartController.js"></script>
+    <script src="js/controllers/cartCountController.js"></script>
+
+    <!--login-->
+    <script src="js/controllers/loginController.js"></script>
+    <script src="js/services/Login.js"></script>
+
+    <!--directive-->
+    <script src="js/directives/addToCart.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <!--<div ng-include="'js/views/navbar.html'"><h1></h1></div>-->
+    <div class="row">
+        <div class="col-md-3 col-sm-3">
+            <a href="#/home"><img src="assests/images/logo.png" alt="" height="100px" width="100px" class="logo"></a>
+        </div>
+        <div class="col-md-9">
+            <h1 class="headding">Heart Cup Coffee</h1>
+        </div>
+
+    </div>
+
+    <nav class="abc ">
+        <ul class="nav nav-tabs row">
+            <li role="presentation" class="menu col-xs-"><a ui-sref="home">Home</a></li>
+            <li role="presentation" class="menu"><a ui-sref="categories">Categories</a></li>
+            <li role="presentation" class="menu"><a ui-sref="products">Products</a></li>
+            <li role="presentation" class="menu"><a ui-sref="about">About</a></li>
+            <!--<li role="presentation" class="menu"><a href="#/login">Login</a></li>-->
+            <li class="menu cart">
+                <a href="#/login" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                   ng-controller="cartCountController">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> My Cart<span class="caret"></span>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+    <div ui-view="">
+
+    </div>
+
+</div>
+
+</body>
+
+
+</html>

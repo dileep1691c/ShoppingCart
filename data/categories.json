@@ -1,0 +1,33 @@
+[
+  {
+    "id":"1",
+    "cat_name":"Classics",
+    "cat_url" : "assests/images/classic.jpg"
+  },
+  {
+    "id":"2",
+    "cat_name":"Irish Magic",
+    "cat_url" : "assests/images/irish.jpg"
+  },
+  {
+    "id":"3",
+    "cat_name":"Cream Blended",
+    "cat_url" : "assests/images/cream.jpg"
+  },
+  {
+    "id":"4",
+    "cat_name":"Iced Coffee",
+    "cat_url" : "assests/images/ice.jpg"
+  },
+  {
+    "id":"5",
+    "cat_name":"Cold Coffee",
+    "cat_url" : "assests/images/cold.jpg"
+  },
+  {
+    "id":"6",
+    "cat_name":"Smoothies",
+    "cat_url" : "assests/images/smoothies.jpg/"
+  }
+
+]

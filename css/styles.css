@@ -1,0 +1,93 @@
+.navbar {
+    margin-bottom: 10px;
+}
+
+.menu {
+    margin-left: 20px;
+}
+
+.search {
+    margin-left: 160px;
+}
+
+.view {
+    margin-bottom: 10px;
+}
+
+.headding {
+    padding-left: 300px;
+
+}
+
+ul.dropdown-cart {
+    min-width: 250px;
+}
+
+ul.dropdown-cart li .item {
+    display: block;
+    padding: 3px 10px;
+    margin: 3px 0;
+}
+
+ul.dropdown-cart li .item:hover {
+    background-color: #f3f3f3;
+}
+
+ul.dropdown-cart li .item:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left {
+    float: left;
+}
+
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info {
+    float: left;
+}
+
+ul.dropdown-cart li .item-left span.item-info {
+    margin-left: 10px;
+}
+
+ul.dropdown-cart li .item-left span.item-info span {
+    display: block;
+}
+
+ul.dropdown-cart li .item-right {
+    float: right;
+}
+
+ul.dropdown-cart li .item-right button {
+    margin-top: 14px;
+}
+
+.cart {
+    margin-left: 600px;
+    margin-top: 5px;
+}
+
+.btn-md {
+    padding: 300px;
+}
+
+.view {
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+@media screen and(max-width:320px) {
+    .col-xs-6 {
+        width: 66.66%;
+    }
+}
